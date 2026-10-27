@@ -1,0 +1,11 @@
+[project]
+name = "opencode-acp-bridge"
+version = "0.1.0"
+description = "ACP server that proxies runs to a remote opencode serve instance"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "acp-sdk>=1.0.3",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.0",
+]
